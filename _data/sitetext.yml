@@ -8,9 +8,14 @@ header:
 
 about:
     title: "About"
-    #text: "Lorem ipsum"
-    section: about
     text: "I am currently undertaking my PhD as part of the AI4Health CDT at Imperial College London. Previously I obtained my Masters in Bioscience Enterprise at the University of Cambridge and gained professional experience at a global healthcare consultancy firm. I have a passion for entrepreneurship and am highly interested in start ups and how applying innovative technology can create solutions to real world problems."
+    section: about
+    
+#about:
+    #title: "About"
+    #text: "Lorem ipsum"
+    #section: about
+    #text: "I am currently undertaking my PhD as part of the AI4Health CDT at Imperial College London. Previously I obtained my Masters in Bioscience Enterprise at the University of Cambridge and gained professional experience at a global healthcare consultancy firm. I have a passion for entrepreneurship and am highly interested in start ups and how applying innovative technology can create solutions to real world problems."
     #list:
       #- title: "E-Commerce"
       #  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -126,8 +131,6 @@ timeline:
     
 footer:
     #legal: "Privacy Policy"
-    title: "Contact"
-    section: contact
     social:
       #- url: https://twitter.com
       #  icon: "fab fa-twitter"  
