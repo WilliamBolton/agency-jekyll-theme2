@@ -59,10 +59,10 @@ timeline:
         align: right
     end: ""
 
-about:
+#about:
     #title: "About Us"
     #text: "our story"
-    section: about
+    #section: about
 
 #clients:
 #    section: clients
@@ -137,8 +137,8 @@ footer:
         icon: "fab fa-linkedin-in"
       - url: https://github.com/WilliamBolton
         icon: "fab fa-github"
-      - url: william.bolton15@imperial.com
-        icon: "fab fa-instagram"
+      #- url: william.bolton15@imperial.com
+      #  icon: "fab fa-instagram"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
