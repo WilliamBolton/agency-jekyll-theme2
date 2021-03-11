@@ -1,64 +1,67 @@
 header:
-    title: Welcome!
-    text: My name is Will it's nice to meet you
+    text: Welcome!
+    title: My name is Will it's nice to meet you
+    #title: Welcome!
+    #text: My name is Will it's nice to meet you
     #button: Tell Me More
     #buttonlink: "#services" # "#{section}" or "URL/page link"
 
-services:
+about:
     title: "About"
     #text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+    section: about
+    text: "I am currently undertaking my PhD as part of the AI4Health CDT at Imperial College London. Previously I obtained my Masters in Bioscience Enterprise at the University of Cambridge and gained professional experience at a global healthcare consultancy firm. I have a passion for entrepreneurship and am highly interested in start ups and how applying innovative technology can create solutions to real world problems."
+    #list:
+      #- title: "E-Commerce"
+      #  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      #  icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      #- title: "Responsive Design"
+      #  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      #  icon: fas fa-laptop       
+      #- title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #  desc: "Your description here, full **Markdown** support"
+      #  icon: fab fa-markdown
 
-portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
+publications:
+    title: "Publications"
+    text: "WIP"
+    section: publications
     
 
 timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
+    title: "Timeline" 
+    #text: "Lorem ipsum timeline"
     section: timeline
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
+      - title: "Imperial College London: BSc Biochemistry"
+        year: "2015-2018"
+        desc: "Obtained a 1st class undergraduate degree in Biochemistry from Imperial. Specialised in biotechnology and synthetic biology."
+        #image: assets/img/timeline/1.jpg
+        #alt: 
         align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "University of Cambridge: MPhil Bioscience Enterprise"
+        year: "2018 - 2019"
+        desc: "Followed my passion to learn about commercialisation and entrepreneurship in the healthcare sector. Saw success in numerous competitions and worked at at a start-up developing a novel AI based precision oncology technology."
+        #image: assets/img/timeline/2.jpg
         alt: 
         align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
+      - title: "Healthcare Consultant"
+        year: "2019 - 2020"
+        desc: "Addressed a range of commercial and business issues while working at CBPartners with a specialist focus on pricing and market access of pharmaceuticals."
+        #image: assets/img/timeline/3.jpg
+        #alt: image alt text
         #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
+      - title: "Imperial College London: AI4Health PhD Researcher"
+        year: "2020-2024"
+        desc: "Creating data-driven solutions to complex healthcare problems, and leveraging the Imperial ecosystem and my prior experience to ensure a real-world impact. My work under Dr Pantelis Georgiou and Professor Alison Holmes focuses on creating intelligent clinical decision support systems to improve the diagnosis and management of infectious diseases in multimorbid patients."
+        #image: assets/img/timeline/4.jpg
+        #alt: 
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: ""
 
 about:
-    title: "About Us"
-    text: "our story"
+    #title: "About Us"
+    #text: "our story"
     section: about
 
 #clients:
@@ -124,6 +127,7 @@ about:
 footer:
     #legal: "Privacy Policy"
     title: "Contact"
+    section: contact
     social:
       #- url: https://twitter.com
       #  icon: "fab fa-twitter"  
